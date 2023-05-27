@@ -1,0 +1,31 @@
+.blogContainer {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  display: grid;
+  justify-content: center;
+  padding: 20px;
+}
+
+.slider-main {
+  padding: 30px;
+}
+
+.highlight {
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.highlight-yt-pic {
+  max-width: 50px;
+}
+
+.bobbins {
+  background-image: url(../images/bobbins.jpg);
+  background-position-x: left;
+  background-position-y: bottom;
+  padding: 40px;
+}
+
+.bobbins-text {
+  padding: 10px;
+  font-size: small;
+}

@@ -1,0 +1,37 @@
+.contact {
+  margin: 20px;
+}
+
+.contact-form,
+.contact-form-input {
+  flex-direction: column;
+  display: flex;
+}
+
+.contact-form > * {
+  flex: 1;
+}
+
+.contact-form-input {
+  margin: 50px;
+}
+
+.contact-input {
+}
+
+input,
+textarea {
+  border: 2px solid;
+  border-radius: 15px;
+  border-color: #2f4710;
+  padding: 15px;
+  margin: 10px;
+}
+
+textarea {
+  padding: 50px;
+}
+
+.contact-desktop {
+  display: none;
+}

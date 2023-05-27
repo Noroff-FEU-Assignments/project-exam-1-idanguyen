@@ -1,0 +1,181 @@
+/* color */
+header a,
+h1,
+footer a,
+.cta,
+.blog-text {
+  color: #2f4710;
+}
+
+.blogContainer,
+nav a:hover,
+.slider-main,
+.footer-home {
+  background-color: #2f4710;
+}
+
+.highlight-yt,
+.body-main,
+.bobbins-text,
+header,
+footer,
+nav,
+.slider,
+.cta,
+.about {
+  background-color: #e9d0c7;
+}
+
+.footer-home {
+  color: #e9d0c7;
+}
+
+/* font */
+h1,
+nav,
+.cta {
+  font-family: "Open Sans";
+  font-weight: 700;
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+/* header */
+
+.logo,
+footer img {
+  max-width: 50%;
+}
+
+header {
+  padding: 10px;
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: none;
+  position: fixed;
+  top: 40px;
+  right: 8px;
+  font-size: small;
+}
+
+footer,
+.footer-links {
+  display: flex;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+nav a:hover {
+  color: #e9d0c7;
+  padding: 10px;
+}
+
+nav li,
+.footer-nav li {
+  display: block;
+}
+
+nav ul > * {
+  margin: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* links */
+
+.button {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.cta {
+  font-size: medium;
+  text-align: center;
+  padding: 10px 30px;
+  outline: solid;
+  outline-color: #644b43;
+  outline-width: thin;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.details img,
+.contact-form img,
+.blogContainer img,
+.header-pic,
+.highlight-pic {
+  width: 100%;
+}
+
+.contact-form,
+.postContainer,
+.details,
+.detailsContainer,
+.button,
+.blogContainer,
+.contact {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.contact-form,
+.postContainer,
+.details,
+.detailsContainer,
+.button,
+.blogContaine,
+.highlight-yt,
+.bobbins-text,
+.contact {
+  text-align: center;
+}
+
+.highlight > * {
+  flex: 1;
+}
+
+.bobbins,
+.blog,
+.blog-header,
+.about-back {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* homepage */
+
+.slide {
+  margin: 20px;
+}
+
+/*blog */
+
+/* product specific */
+
+.logo-details,
+.blog {
+  margin: 20px;
+}
+
+/* contact */
+
+/* media */

@@ -1,0 +1,26 @@
+.postContainer {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  text-align: center;
+}
+
+.blog {
+  background-image: url(../images/blog-bakgrunn.jpg);
+  margin: 10px auto;
+}
+
+.blog img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.blog-header {
+  background-image: url(../images/header-blog.jpg);
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.blog-text,
+.blog {
+  padding: 15px;
+}

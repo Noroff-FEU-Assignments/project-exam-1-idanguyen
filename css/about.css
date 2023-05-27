@@ -1,0 +1,11 @@
+.about-back {
+  background-image: url(../images/about.jpg);
+  padding: 30px;
+  text-align: center;
+}
+
+.about {
+  padding: 10px;
+  max-width: 1000px;
+  margin: auto;
+}
