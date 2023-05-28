@@ -54,7 +54,7 @@ async function getPosts(uri) {
          <a href="blog-specific.html?id=${results[i].id}"><img src="${results[i].jetpack_featured_media_url}"></a>
          </div>
          <div>
-          <a href="blog-specific.html?id=${results[i].id}" class="cta">READ MORE</a>
+          <a href="blog-specific.html?id=${results[i].id}" class="cta blog-read">READ MORE</a>
           <h2>${results[i].title.rendered}</h2>
           <p>${results[i].excerpt.rendered}</p>
          </div>

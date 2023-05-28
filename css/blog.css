@@ -37,3 +37,7 @@
 .categoryContainer {
   text-align: -webkit-center;
 }
+
+.blog img {
+  margin-bottom: 15px;
+}
