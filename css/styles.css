@@ -3,7 +3,8 @@ header a,
 h1,
 footer a,
 .cta,
-.blog-text {
+.blog-text,
+.close {
   color: #2f4710;
 }
 
@@ -172,24 +173,12 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
 }
-/* homepage */
 
+.logo-details,
+.blog,
 .slide {
   margin: 20px;
 }
-
-/*blog */
-
-/* product specific */
-
-.logo-details,
-.blog {
-  margin: 20px;
-}
-
-/* contact */
-
-/* media */
 
 .loader {
   border: 16px solid #e9d0c7;
@@ -207,14 +196,4 @@ a {
   100% {
     transform: rotate(360deg);
   }
-}
-
-#myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#myImg:hover {
-  opacity: 0.96;
 }

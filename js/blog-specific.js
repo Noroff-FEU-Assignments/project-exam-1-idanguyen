@@ -34,7 +34,6 @@ async function displayDetails() {
            <div id="myModal" class="modal">
            <span class="close">&times;</span>
            <img class="modal-content" id="img01">
-           <div id="caption" class="caption-text"></div>
            </div>
          </div>
          <div>
@@ -64,12 +63,11 @@ async function displayDetails() {
       modal.style.display = "none";
     };
 
-    window.onclick = function(event) {
+    window.onclick = function (event) {
       if (event.target == modal) {
         modal.style.display = "none";
       }
-    }
-
+    };
   } catch (error) {
     alert(error);
   }

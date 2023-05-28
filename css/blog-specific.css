@@ -44,14 +44,9 @@
   position: absolute;
   top: 15px;
   right: 35px;
-  color: #81a73b;
   font-size: 60px;
   font-weight: bold;
   transition: 0.6s;
-}
-
-.caption-text {
-  color: antiquewhite;
 }
 
 .close:hover,
@@ -61,8 +56,12 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 700px) {
-  .modal-content {
-    width: 100%;
-  }
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {
+  opacity: 0.96;
 }
