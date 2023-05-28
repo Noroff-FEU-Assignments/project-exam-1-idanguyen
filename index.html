@@ -61,12 +61,26 @@
       />
       <div class="slider-main">
         <div class="button">
-          <button class="cta" onclick="decreaseLength()">Back</button>
-          <button class="cta" onclick="increaseLength()">Forward</button>
+          <button
+            id="back"
+            class="cta"
+            onclick="decreaseLength()"
+            disabled="true"
+          >
+            Back
+          </button>
+          <button id="forward" class="cta" onclick="increaseLength()">
+            Forward
+          </button>
         </div>
         <div>
           <div class="blogContainer"></div>
         </div>
+        <ul class="dots">
+          <li id="1" class="dot"></li>
+          <li id="2" class="dot"></li>
+          <li id="3" class="dot"></li>
+        </ul>
       </div>
       <section class="highlight">
         <div>
