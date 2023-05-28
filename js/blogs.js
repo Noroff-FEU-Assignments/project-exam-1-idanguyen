@@ -41,6 +41,7 @@ async function getPosts(uri) {
     const response = await fetch(uri);
     const results = await response.json();
     displayAmount = 10;
+    blogs = [];
 
     let loading = `<div class="loader"></div>`;
 
