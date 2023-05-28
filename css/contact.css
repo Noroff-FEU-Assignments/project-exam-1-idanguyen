@@ -8,10 +8,6 @@
   display: flex;
 }
 
-.contact-form > * {
-  flex: 1;
-}
-
 .contact-form-input {
   margin: 50px;
 }
@@ -32,6 +28,21 @@ textarea {
   padding: 50px;
 }
 
+.errorMessage {
+  &.error {
+    color: #ff0000;
+  }
+}
+
 .contact-desktop {
   display: none;
+}
+
+.contact-logo,
+.contect-text {
+  display: none;
+}
+
+.contact-form > * {
+  flex: 1;
 }

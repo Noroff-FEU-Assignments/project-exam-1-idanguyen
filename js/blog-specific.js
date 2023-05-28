@@ -1,5 +1,6 @@
 /* References used:
 Modals: https://www.w3schools.com/howto/howto_css_modal_images.asp
+GetParameter was used in a previous project by me for YR.no API
  */
 
 let detailsContainer = document.querySelector(".detailsContainer");

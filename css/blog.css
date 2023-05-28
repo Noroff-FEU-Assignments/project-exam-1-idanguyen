@@ -24,3 +24,16 @@
 .blog {
   padding: 15px;
 }
+
+.categoryContainer > * {
+  margin: 5px;
+  padding: 10px;
+}
+
+.blog-more {
+  margin: auto auto 10px auto;
+}
+
+.categoryContainer {
+  text-align: -webkit-center;
+}
