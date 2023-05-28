@@ -41,20 +41,25 @@ async function getPosts(uri) {
     const response = await fetch(uri);
     const results = await response.json();
     displayAmount = 10;
-    blogs = [];
 
     let loading = `<div class="loader"></div>`;
 
     postContainer.innerHTML = loading;
 
     for (let i = 0; i < results.length; i++) {
+      let uriMedia =
+        "https://www.idanhu.com/wp-json/wp/v2/media/" +
+        results[i].featured_media;
+      const responseMedia = await fetch(uriMedia);
+      const resultsMedia = await responseMedia.json();
+
       blogs.push(`
         <div class="blog">
          <div>
-         <a href="blog-specific.html?id=${results[i].id}"><img src="${results[i].jetpack_featured_media_url}"></a>
+         <a href="blog-specific.html?id=${results[i].id}"><img src="${resultsMedia.guid.rendered}" alt="${resultsMedia.alt_text}"></a>
          </div>
          <div>
-          <a href="blog-specific.html?id=${results[i].id}" class="cta blog-read">READ MORE</a>
+          <a href="blog-specific.html?id=${results[i].id}" class="cta">READ MORE</a>
           <h2>${results[i].title.rendered}</h2>
           <p>${results[i].excerpt.rendered}</p>
          </div>
