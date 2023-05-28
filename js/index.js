@@ -12,6 +12,7 @@ let length = 1;
 
 let blogContainer = document.querySelector(".blogContainer");
 const backButton = document.getElementById("back");
+backButton.disabled = true;
 const forwardButton = document.getElementById("forward");
 const dots = document.getElementsByClassName("dot");
 let dotInt = document.getElementById("1");
