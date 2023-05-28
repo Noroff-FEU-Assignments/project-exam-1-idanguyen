@@ -48,6 +48,18 @@
     max-width: 600px;
     margin: auto;
   }
+
+  .slide-home {
+    display: flex;
+    align-items: center;
+  }
+  .none {
+    display: block;
+  }
+
+  .none-mobil {
+    display: none;
+  }
 }
 
 @media (min-width: 800px) {

@@ -5,6 +5,8 @@
  * https://www.w3schools.com/howto/howto_css_circles.asp and
  * https://jsfiddle.net/Hatchet/s6tn4o43/
  *
+ * Creating arrows:
+ * https://icons8.com/icons/set/arrow
  */
 
 const uriPosts = "https://www.idanhu.com/wp-json/wp/v2/posts?per_page=20";
@@ -12,8 +14,11 @@ let length = 1;
 
 let blogContainer = document.querySelector(".blogContainer");
 const backButton = document.getElementById("back");
-backButton.disabled = true;
+backButton.style.display = "none";
 const forwardButton = document.getElementById("forward");
+const rightArrow = document.getElementById("rightArrow");
+const leftArrow = document.getElementById("leftArrow");
+leftArrow.style.display = "none";
 const dots = document.getElementsByClassName("dot");
 let dotInt = document.getElementById("1");
 dotInt.classList.add("active");
@@ -75,13 +80,21 @@ function increaseLength() {
 function checkButtons() {
   forwardButton.disabled = false;
   backButton.disabled = false;
+  forwardButton.style.display = "block";
+  backButton.style.display = "block";
+  leftArrow.style.display = "block";
+  rightArrow.style.display = "block";
 
   if (length == 1) {
     backButton.disabled = true;
+    backButton.style.display = "none";
+    leftArrow.style.display = "none";
   }
 
   if (length == 3) {
     forwardButton.disabled = true;
+    forwardButton.style.display = "none";
+    rightArrow.style.display = "none";
   }
 }
 
