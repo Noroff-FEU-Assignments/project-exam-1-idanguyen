@@ -1,5 +1,9 @@
 /* References used:
-Modals: https://www.w3schools.com/howto/howto_css_modal_images.asp
+Modals: 
+https://www.w3schools.com/howto/howto_css_modal_images.asp
+https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal_close
+to learn how to close the modal by pressing anywhere. The window event was key here when modal was open.
+
 GetParameter was used in a previous project by me for YR.no API
  */
 
@@ -30,7 +34,7 @@ async function displayDetails() {
            <div id="myModal" class="modal">
            <span class="close">&times;</span>
            <img class="modal-content" id="img01">
-           <div id="caption"></div>
+           <div id="caption" class="caption-text"></div>
            </div>
          </div>
          <div>
@@ -59,6 +63,13 @@ async function displayDetails() {
     span.onclick = function () {
       modal.style.display = "none";
     };
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+
   } catch (error) {
     alert(error);
   }
