@@ -17,8 +17,11 @@ const backButton = document.getElementById("back");
 backButton.style.display = "none";
 const forwardButton = document.getElementById("forward");
 const rightArrow = document.getElementById("rightArrow");
+const rightArrowMobile = document.getElementById("rightArrowMobile");
 const leftArrow = document.getElementById("leftArrow");
+const leftArrowMobile = document.getElementById("leftArrowMobile");
 leftArrow.style.display = "none";
+leftArrowMobile.style.display = "none";
 const dots = document.getElementsByClassName("dot");
 let dotInt = document.getElementById("1");
 dotInt.classList.add("active");
@@ -84,17 +87,21 @@ function checkButtons() {
   backButton.style.display = "block";
   leftArrow.style.display = "block";
   rightArrow.style.display = "block";
+  leftArrowMobile.style.display = "block";
+  rightArrowMobile.style.display = "block";
 
   if (length == 1) {
     backButton.disabled = true;
     backButton.style.display = "none";
     leftArrow.style.display = "none";
+    leftArrowMobile.style.display = "none";
   }
 
   if (length == 3) {
     forwardButton.disabled = true;
     forwardButton.style.display = "none";
     rightArrow.style.display = "none";
+    rightArrowMobile.style.display = "none";
   }
 }
 
