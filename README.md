@@ -1,67 +1,63 @@
-## Project Exam 1
+# INdesign
 
-## Goal
+![image](images/header-blog.jpg)
 
-To put into practice the skills learned over your first year of studies.
+For my project exam June 2023 at Noroff we had to create a blog. I decided to share a passion of mine which is ![#FFB6C1](Sewing) for my blog.
 
-## Brief
-You have been tasked with creating a blog site. You can choose the design and topics covered on the blog, but it should have at least the following pages:
--	Home page
--	About page
--	List of blog posts
--	Blog post specific pages
--	Contact page.
+## Description
 
-### Home Page
-The home page should have a ‘Latest Posts’ section which uses a carousel (slider) for users to click to view more posts. For example, by default the user can see four posts, then they can click an arrow on the right to view the next four posts, and click it again to view the next four posts. The user can also click back to view results they had previously seen. This must be implemented for desktop at least, but if you want a simpler layout for mobile, you can change it from being in a carousel.
+This goal of this project is to showcase the variety of skills I have learned through the two semesters at Noroff. Both the design phase, and development phase reflect the skills I have learned. I also want to showcase the method of creating a website from an idea to a design and finally the implementation. We were also tasked to use [Hotjar](https://hotjar.com/) to see how users interacted with the webpage.
 
-### Blog Page
+[The hosted site can be seen here](https://adorable-mandazi-35b33b.netlify.app/)
 
-The blog posts page should show the first 10 blogs, and the user should click to view more results which then show underneath the first 10 blogs.
+### Design Phase
 
-### Blog Specific Page
+The design phase was to have a site which showed the blog posts for the different blog posts about sewing techniques to guides. I wanted to have a scrolling option to display posts on the front page. The design was done through [Figma](https://figma.com/) and the [prototype can be seen here.](https://www.figma.com/file/UiLwolCL6oNp8SNQaUpoze/PE?type=design&node-id=0%3A1&t=7w7bdxh0ZKSOpKgG-1)
 
-The content of the blog specific page should be dynamically built using a query string parameter based on whatever link the user clicked. The title of the blog specific page should change based on the blog that has been clicked on e.g. “My Blog | An Article I Wrote”.
+### Development Phase
 
-If images on the blog post page are clicked, a modal should appear giving the user a bigger view of that image. Clicking outside the image should hide the modal.
+I wanted to showcase the knowledge and skills I had accrued during this year, with an emphasis on:
 
-### Contact page
+- API-calls
+- API management
+- URL management
+- javascript
+- HTML and CSS
 
-Create a contact us page, there should be 4 textboxes on this page.
--	Name (Should be more than 5 characters long)
--	Email address (Must be a valid email address)
--	Subject (Should be more than 15 characters long)
--	Message content (Should be more than 25 characters long)
+The website was also hosted by using [Netlify](https://netlify.com/), and the API was hosted using [Wordpress](https://wordpress.com/).
 
-Please use JavaScript for validation, show error messages if the values in the textboxes do not meet the requirements.
+## Built With
 
-### WordPress
+The technologies used to create this project from the design, creating the API, and development were:
 
-The content for your website will be stored on a WordPress installation used as a Headless CMS. It’s important to note that we are only using WordPress to provide an API and add content for the blog. You should not submit a link to a WordPress site, but build your website using HTML, CSS and JavaScript and making a call to the WordPress REST API to fetch the data. 
+- [Figma](https://figma.com/)
+- [HTML5](https://www.w3.org/TR/2011/WD-html5-20110405/)
+- [CSS3](https://www.tutorialspoint.com/css/css3_tutorial.htm)
+- [JavaScript](https://devdocs.io/javascript/)
+- [Hotjar](https://hotjar.com/)
+- [Wordpress](https://wordpress.com/)
+- [Netlify](https://netlify.com/)
 
-The project has two aspects:
--	API from your WordPress installation
--	Your website built with HTML, CSS and JavaScript
+## Getting Started
 
-You will need to add at least 12 blogs for your website. You can use lorem ipsum for paragraphs if you need, but headings, images etc. should all make sense.
+### Installing
 
-Note that this is an exam, and therefore tutor support will be limited as per the study plan.
+1. Clone the repo:
 
-## Level 1 Process
+```bash
+git clone git@github.com:NoroffFEU/portfolio-1-example.git
+```
 
-1.	Decide on the theme for the blog you’re going to make
-2.	Create a prototype of the website
-3.	Install WordPress on your web host and add the blogs on the admin panel. 
-4.	Use the GitHub repo created by GitHub Classroom for your files and deploy to Netlify
-5.	Build your website using HTML, CSS and JavaScript making a call to the WordPress REST API to fetch your data.
-6.	Install Hotjar on your website.
-7.	Ask users to test your website, and adjust based on their feedback and any insights from Hotjar.
-8.	Write a report documenting your project (template provided in this repository).
-9.	Submit your report as a PDF and a link to both your Netlify deployment and your GitHub repo.
- 
-## Level 2 Process (optional)
+### Running
 
-1.	You can try adding a sort, filter, or search to the blog posts page allowing users to find the blog post more easily that they’re looking for. 
-2.	Post the data from the contact form to WordPress so you have the details saved.
-3.	Allow users to submit comments on a blog post, and post this data to WordPress
+There are no dependencies, use your preffered browser and run index.html. You also have the option to deploy the website by using e.g. [Netlify](https://netlify.com/).
 
+## Contributing
+
+If you want to contribute to this project open a pull request.
+
+## Contact
+
+[Email](ida_nguyen@outlook.com)
+
+[My LinkedIn page](https://www.linkedin.com/in/ida-nguyen-441709187)
