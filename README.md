@@ -45,7 +45,7 @@ The technologies used to create this project from the design, creating the API, 
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:Noroff-FEU-Assignments/project-exam-1-idanguyen.git
+git clone [git@github.com:Noroff-FEU-Assignments/project-exam-1-idanguyen.git](https://github.com/Noroff-FEU-Assignments/project-exam-1-idanguyen.git)
 ```
 
 ### Running
