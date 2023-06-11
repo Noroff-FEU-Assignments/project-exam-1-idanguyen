@@ -2,7 +2,7 @@
 
 ![image](images/header-blog.jpg)
 
-For my project exam June 2023 at Noroff we had to create a blog. I decided to share a passion of mine which is ![#FFB6C1](Sewing) for my blog.
+For my project exam June 2023 at Noroff we had to create a blog. I decided to share a passion of mine which is Sewing for my blog.
 
 ## Description
 
